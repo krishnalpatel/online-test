@@ -1,0 +1,32 @@
+INSERT INTO userdesc(uid,uname) VALUES('id1','aa'); 
+INSERT INTO userdesc(uid,uname) VALUES('id2','bb');
+INSERT INTO userdesc(uid,uname) VALUES('id3','cc');
+INSERT INTO userdesc(uid,uname) VALUES('id4','dd');
+INSERT INTO userdesc(uid,uname) VALUES('id5','ee');
+
+
+INSERT INTO category(catcode,category) VALUES('DC','Designing and Coding');
+INSERT INTO category(catcode,category) VALUES('DI','Distribution Issues');
+INSERT INTO category(catcode,category) VALUES('SS','Sec and Signing Issues');
+
+
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(1,'question 1: ans a','a','b','c','d','a','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(2,'question 2: ans c','a','b','c','d','c','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(3,'question 3: ans d','a','b','c','d','d','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(4,'question 4: ans a','a','b','c','d','a','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(5,'question 5: ans b','a','b','c','d','b','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(6,'question 6: ans d','a','b','c','d','d','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(7,'question 7: ans c','a','b','c','d','c','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(8,'question 8: ans d','a','b','c','d','d','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(9,'question 9: ans a','a','b','c','d','a','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(10,'question 10: ans a','a','b','c','d','a','DC');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(11,'question 11: ans a','a','b','c','d','a','DI');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(12,'question 12: ans b','a','b','c','d','b','DI');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(13,'question 13: ans b','a','b','c','d','b','DI');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(14,'question 14: ans c','a','b','c','d','c','DI');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(15,'question 15: ans d','a','b','c','d','d','DI');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(16,'question 16: ans d','a','b','c','d','d','DI');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(17,'question 17: ans d','a','b','c','d','d','SS');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(18,'question 18: ans c','a','b','c','d','c','SS');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(19,'question 19: ans c','a','b','c','d','c','SS');
+INSERT INTO question(qno,ques,a,b,c,d,rchoice,category_catcode) VALUES(20,'question 20: ans b','a','b','c','d','b','SS');
